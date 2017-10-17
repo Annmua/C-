@@ -1,0 +1,51 @@
+3_1switch语句
+#include<iostream.h>
+void main()
+{
+int x;
+cout<<"Please input x:"<<endl;
+cin>>x;
+if(x<10)
+switch(x/1)
+{
+case 1:
+case 2:
+case 3:
+case 4:
+case 5:
+case 6:
+case 7:
+case 8:
+case 9:cout<<"小于10\n";break;
+}
+else
+if((x>10&&x<99))
+switch(x/10)
+{
+case 1:
+case 2:
+case 3:
+case 4:
+case 5:
+case 6:
+case 7:
+case 8:
+case 9:cout<<"10到99\n";break;
+}
+else
+if(x>100&&x<999)
+switch(x/100)
+{
+case 1:
+case 2:
+case 3:
+case 4:
+case 5:
+case 6:
+case 7:
+case 8:
+case 9:cout<<"100到999\n";break;
+}
+else
+cout<<"1000以上"<<endl;
+}
