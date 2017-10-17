@@ -1,0 +1,21 @@
+#include<iostream.h>
+#define pi 3.141526
+void main()
+{
+   float r,k,l,s;
+   cout<<"please input r and k";
+   cin>>k>>r;
+   l=2*pi*r;
+   s=pi*r*r;
+   {
+     if(k=1)
+       cout<<"s="<<s<<endl;
+	 else
+	 {
+         if(k=2)
+           cout<<"l="<<l<<endl;
+         else
+             cout<<"l and s="<<l<<s<<endl;
+	 }
+   }
+}
