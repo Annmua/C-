@@ -1,0 +1,22 @@
+#include<iostream.h>
+void main()
+{
+   int a,b;
+   for(a=0;b<=9;a=a++)
+   {
+      if((10a+b)(10a+b)<10&&(10a+b)(10a+b)=10a+b);
+	  {
+         cout<<10a+b<<endl;
+	  }
+      else
+          if((10a+b)(10a+b)<10&&(10a+b)(10a+b)>=10&&(10a+b)(10a+b)%10=(10a+b));
+		  {
+              cout<<10a+b<<endl;
+		  }
+          else
+              if((10a+b)(10a+b)>=100&&((10a+b)(10a+b)%100=10a+b));
+			  {
+                 cout<<10*(a+b)<<endl;
+			  }
+   }
+}
