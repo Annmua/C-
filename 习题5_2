@@ -1,0 +1,17 @@
+#include "iostream.h"
+float fx(int n)
+{
+		return n+fx(n-1);
+}
+float Sum(int n)
+{
+	return 1/fx(n)+Sum(n-1);
+}
+void main()
+{
+	float s;
+	int n;
+	cin>>n;
+	s=Sum(n);
+	cout<<n<<"s="<<s<<endl;
+}
