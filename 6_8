@@ -1,0 +1,16 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main() 
+{
+	int i, j;
+	char aa[100],bb[100];
+	cin >> aa;
+	cin >> bb;
+	for ( i = strlen(aa), j=0; j<strlen(bb); i++,j++)
+	{
+		aa[i] = bb[j];
+	}
+	aa[i] = '\0';
+	cout << aa<<endl;
+}
